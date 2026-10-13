@@ -1,0 +1,6 @@
+{
+  "name": "Ziyo Academy",
+  "description": "Ingliz tili (B2 gacha), Rus tili va dasturlash bo'yicha interaktiv darsliklar, mashqlar hamda talaffuzli lug'at o'yinlari platformasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
