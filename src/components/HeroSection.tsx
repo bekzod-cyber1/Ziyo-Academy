@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, BookOpen, Code2, Volume2, ShieldCheck } from 'lucide-react';
+import heroImg from '../assets/images/hero_academy_library_1791868778587.jpg';
 
 interface HeroSectionProps {
   onStartCourse: (courseId: string) => void;
@@ -78,7 +79,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="lg:col-span-5 relative flex items-stretch">
             <div className="w-full relative rounded-2xl overflow-hidden border border-stone-300/80 shadow-md group min-h-[320px]">
               <img
-                src="/src/assets/images/hero_academy_library_1791868778587.jpg"
+                src={heroImg}
                 alt="Ziyo Academy scholarly study room with manuscripts and modern coding workspace"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
